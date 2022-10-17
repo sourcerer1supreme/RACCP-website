@@ -1,0 +1,7 @@
+Loading screen - gradient loading spinner
+underline animation in header menu items
+snap to sections - DISCARDED
+scroll up button - DONE
+make slider responsive - FIXED
+
+center card showing details

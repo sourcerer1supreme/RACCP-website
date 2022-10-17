@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>RACCP</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- stylesheets -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="./css/all.css">
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- scripts -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./js/scripts.js"></script>
+
+    </head>
+    <body class="overflow-x-hidden">
+        <!-- header section -->
+        <header class="text-gray-600 body-font">
+          <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="#">
+                  <img src="./img/RCCP.jfif" alt="" width="110">
+                  <span class="ml-6 text-xl font-[750] jost">Rotaract Club of <div class="text-indigo-500 animate__animated animate__bounceInLeft caveat">Calcutta Presidency</div></span>
+              </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base font-[500] justify-center">
+                <a class="mr-5 hover:underline hover:underline-offset-4 jost" href="#">Home</a>
+                <a class="mr-5 hover:underline hover:underline-offset-4 jost"  href="#about">About</a>
+                <a class="mr-5 hover:underline hover:underline-offset-4 jost" href="#upcoming-events">Upcoming Events</a>
+                <a class="mr-5 hover:underline hover:underline-offset-4 jost" href="#gallery">Gallery</a>
+                <a class="mr-5 hover:underline hover:underline-offset-4 jost" href="#team">Team</a>
+                <a class="mr-5 hover:underline hover:underline-offset-4 jost" href="#home">Support us</a>
+              </nav>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSegqH-h84HAmp0_lztyMfu_2lszwJ0uAnUMRUXxjnPk8FQOZg/viewform" target="_blank">
+                <button class="mem-button inline-flex items-center bg-gray-100 border-0 py-1 px-3 mr-4 focus:outline-none rounded text-base font-[600] mt-4 md:mt-0 jost">Be a member
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </a>
+              
+          </div>
+        </header>
+
+        <!-- header section ends -->
+
+
+        <!-- home/hero  -->
+        <section id="home" class="pb-10">
+          <div id="hero" class="flex items-center justify-center md:w-1/2 w-5/6">
+            <div class="text-white font-[1000] text-[5em] animate__animated animate__fadeInUp animate__delay-1s caveat">Lorem ipsum</div>
+          </div>
+        </section>
+        <!-------------- home/hero ends ------------>
+        
+        <!------------------- about ------------------->
+        <section id="about" class="text-gray-600 body-font h-screen">
+          <div class="container mx-auto flex px-10 pt-8 pb-24 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" data-aos="fade-up" data-aos-offset="300">
+              <p class="mb-4 text-3xl sm:text-7xl jost">About us</p>
+              <p class="mb-8 mt-10 font-[700] text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illo ipsam ullam impedit id maiores corrupti, velit recusandae in officiis molestias aperiam inventore sequi soluta obcaecati sint voluptates animi dolorum! <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illo ipsam ullam impedit id maiores corrupti, velit recusandae in officiis molestias aperiam inventore sequi soluta obcaecati sint voluptates animi dolorum!</p>
+              <div class="flex justify-center">
+                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Our Mission</button>
+                <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"><a href="#gallery">Explore our work</a></button>
+              </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mt-10">
+              <img class="object-cover object-center rounded"  data-aos="fade-left" data-aos-offset="300" data-aos-delay="500" data-aos-duration="1000" alt="image" src="https://abideinthesecretplace.com/wp-content/uploads/2020/03/seek-to-serve.jpg">
+            </div>
+          </div>
+        </section> 
+        <!------xx------- about section ends -----xx------>
+        
+        <!------------------ Upcoming Events Section ------------------>
+        <section id="upcoming-events" class="h-screen flex-col items-center align-center"> <!--sm:flex-col-->
+          <p class="mb-4 text-3xl text-gray-600 sm:text-7xl jost pt-8 text-center" data-aos="fade-up" data-aos-offset="500">Upcoming Events</p>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+        <!-------xx------- Upcoming Events Section Ends -------xx------->
+
+        <!-------------- Event Gallery ------------------->
+
+        <section id="gallery" class="h-screen flex-col items-center align-center">
+          <p class="mb-4 text-3xl text-gray-600 sm:text-7xl jost pt-8 text-center" data-aos="fade-up" data-aos-offset="500">Gallery</p>
+          <!-- Swiper -->
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/210205/pexels-photo-210205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/457881/pexels-photo-457881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.pexels.com/photos/235990/pexels-photo-235990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+        
+
+        <!-------xx------- Event Gallery --------xx------>
+
+
+        <!------------ meet the team ------------>
+        <section id="team" class="flex items-center align-center flex-wrap">
+          <p class="mb-4 text-3xl text-gray-600 sm:text-7xl jost pt-8 text-center w-screen mb-20" data-aos="fade-up" data-aos-offset="500">Meet The Team</p>
+
+          <div class="container flex flex-col sm:flex-row items-center align-center flex-wrap mx-10">
+            <div class="card w-[300px] h-[400px]">
+              <div class="content">
+                <div class="imgBx"><img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt=""></div>
+                <div class="contentBx">
+                  <h3>Person One<br><span>Designation</span></h3>
+                </div>
+              </div>
+              <ul class="sci mr-20">
+                <li style="--i:1">
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li style="--i:2">
+                  <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                </li>
+                <li style="--i:3">
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li style="--i:4">
+                  <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </li>
+              </ul>
+            </div>
+            
+
+            <div class="card w-[300px] h-[400px]">
+              <div class="content">
+                <div class="imgBx"><img src="https://images.unsplash.com/photo-1518577915332-c2a19f149a75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=562&q=80" alt=""></div>
+                <div class="contentBx">
+                  <h3>Person Two<br><span>Designation</span></h3>
+                </div>
+              </div>
+              <ul class="sci mr-20">
+                <li style="--i:1">
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li style="--i:2">
+                  <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                </li>
+                <li style="--i:3">
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li style="--i:4">
+                  <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </li>
+              </ul>
+            </div>
+            
+
+            <div class="card w-[300px] h-[400px]">
+              <div class="content">
+                <div class="imgBx"><img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt=""></div>
+                <div class="contentBx">
+                  <h3>Person Three<br><span>Designation</span></h3>
+                </div>
+              </div>
+              <ul class="sci mr-20">
+                <li style="--i:1">
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li style="--i:2">
+                  <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                </li>
+                <li style="--i:3">
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li style="--i:4">
+                  <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </li>
+              </ul>
+            </div>
+          
+            <div class="card w-[300px] h-[400px]">
+              <div class="content">
+                <div class="imgBx"><img src="https://images.unsplash.com/photo-1493752603190-08d8b5d1781d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt=""></div>
+                <div class="contentBx">
+                  <h3>Person Four<br><span>Designation</span></h3>
+                </div>
+              </div>
+              <ul class="sci mr-20">
+                <li style="--i:1">
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li style="--i:2">
+                  <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                </li>
+                <li style="--i:3">
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li style="--i:4">
+                  <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </li>
+              </ul>
+            </div>
+          
+            
+
+          </div>
+          <br><br><br>
+        </section>
+
+        <!---xx---- meet the team ----xx---->
+
+        <!------------ Contact Us --------------> 
+        <section class="text-gray-600 body-font relative">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+              <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
+            </div>
+            <div class="lg:w-1/2 md:w-2/3 mx-auto">
+              <div class="flex flex-wrap -m-2">
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                    <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                    <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-full">
+                  <div class="relative">
+                    <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                    <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                  </div>
+                </div>
+                <div class="p-2 w-full">
+                  <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-------xx----- Contact Us --------xx------> 
+
+
+
+
+
+
+        <!-- Scroll-Up Button -->
+        <div class="scrollTop" onclick="scrollToTop();"></div>
+
+
+        <!-- --------------------------- Footer ------------------------------------------>
+
+        <footer id="footer" class="footer">
+          <div class="container">
+              <div class="about-us text-justify mx-10" data-aos="fade-right" data-aos-delay="200">
+                  <h2 class="mb-3">About us</h2>
+                  <p class="josefin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia atque nemo ad modi officiis
+                      iure, autem nulla tenetur repellendus.</p>
+              </div>
+              <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                  <h2 class="mb-3">Newsletter</h2>
+                  <p class="josefin mb-2">Stay updated with our latest events</p>
+                  <div class="form-element">
+                      <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                  </div>
+              </div>
+              <div class="quick-access" data-aos="fade-left" data-aos-delay="200">
+                  <h2 class="mb-3">Quick Access</h2>
+                  <div class="flex flex-row flex-wrap">
+                      <img src="./img/RCCP.jfif" alt="insta1">
+                      <img src="./img/RCCP.jfif" alt="insta2">
+                      <img src="./img/RCCP.jfif" alt="insta3">
+                  </div>
+                  <div class="flex flex-row flex-wrap">
+                      <img src="./img/RCCP.jfif" alt="insta4">
+                      <img src="./img/RCCP.jfif" alt="insta5">
+                      <img src="./img/RCCP.jfif" alt="insta6">
+                  </div>
+              </div>
+              <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                  <h2 class="mb-3">Follow us</h2>
+                  <p class="josefin mb-3">Let us be Social</p>
+                  <div>
+                    <div class="flex flex-row mb-3">
+                      <i class="fa-brands fa-facebook fa-2x"></i>
+                      <i class="fab fa-twitter fa-2x"></i>
+                    </div>
+                    <div class="flex flex-row">
+                      <i class="fab fa-instagram fa-2x"></i>
+                      <i class="fab fa-youtube fa-2x"></i>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="rights flex flex-row flex-wrap">
+              <h4 class="text-gray-500 text-base font-medium josefin mb-8">
+                  Copyright ©2022 All rights reserved | made by
+                  <a class="jost text-base font-normal" href="https://www.facebook.com/moni.ghosh.505" target="_blank">Monimoy Ghosh</a>
+              </h4>
+          </div>
+      </footer>
+
+      <!-- ---------xx------------------ Footer ---------------------xx--------------------->
+
+
+
+        <!-- scripts -->
+
+        <!-- animate-on-scroll -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
+        <!-- swiper JS -->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+              rotate: 20,
+              stretch: 0,
+              depth: 200,
+              modifier: 1,
+              slideShadows: true,
+            },
+            loop: true,
+            autoplay: {
+              delay: 1500,
+              disableOnInteraction: true,
+            },
+            on: {
+              init() {
+                this.el.addEventListener('mouseenter', () => {
+                  this.autoplay.stop();
+                });
+
+                this.el.addEventListener('mouseleave', () => {
+                  this.autoplay.start();
+                });
+              }
+            },
+          });
+        </script>
+
+        <script>
+          var swiper = new Swiper(".mySwiper2", {
+            spaceBetween: 30,
+            speed: 1000,
+            effect: "fade",
+            // grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              type: "progressbar",
+            },
+            loop: true,
+            autoplay: {
+              delay: 3000,
+              disableOnInteraction: true,
+            },
+            on: {
+              init() {
+                this.el.addEventListener('mouseenter', () => {
+                  this.autoplay.stop();
+                });
+
+                this.el.addEventListener('mouseleave', () => {
+                  this.autoplay.start();
+                });
+              }
+            },
+          });
+        </script>
+
+        <script>
+          window.addEventListener('scroll', function() {
+            var scroll = document.querySelector('.scrollTop');
+            scroll.classList.toggle("active",window.scrollY > 500)
+          })
+          
+          function scrollToTop() {
+            window.scrollTo({
+              top: 0
+            })
+          }
+        </script>
+    </body>
+</html>
