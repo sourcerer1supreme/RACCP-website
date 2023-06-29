@@ -1,3 +1,3 @@
 # RACCP-website
 
-This is a draft for the RACCP website.
+This is an initial draft for the RACCP website.
